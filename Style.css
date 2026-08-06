@@ -1,0 +1,277 @@
+
+
+/*
+---------------------------------------------------------
+Estilos generales de la página.
+
+Se modifica el color de fondo de toda la página,
+el tipo de letra, el color del texto y el espacio
+general alrededor del contenido.
+---------------------------------------------------------
+*/
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Selector de ID.
+
+Se aplican estilos únicamente al elemento que tiene
+el id="Seccion".
+
+Se define un color de fondo, un ancho, un margen
+externo y un relleno interno.
+---------------------------------------------------------
+*/
+#Seccion{
+
+    width:90%;
+    background-color:aquamarine;
+    margin:20px auto;
+    padding:20px;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Selector de clase.
+
+Esta clase se utiliza para el contenedor principal
+que agrupa el título, el párrafo y la lista.
+
+Se establece un color de fondo, margen y padding
+para separar visualmente el contenido.
+---------------------------------------------------------
+*/
+.Contenedor{
+
+    background-color:yellow;
+    padding:20px;
+    margin:15px;
+
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Se modifica el estilo del título principal.
+
+Se cambia el color del texto y se centra
+horizontalmente.
+---------------------------------------------------------
+*/
+h1{
+
+    color:black;
+    text-align:center;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos para la sección del párrafo.
+
+Se cambia el color del fondo y el color del texto
+para diferenciar esta parte de la página.
+
+También se agrega margen y padding para mejorar
+la presentación.
+---------------------------------------------------------
+*/
+.Parrafo{
+
+    background-color:blue;
+    color:white;
+    padding:15px;
+    margin:15px;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos para la sección de la lista.
+
+Se utiliza otro color de fondo para distinguir
+esta parte del contenido.
+
+También se agregan márgenes y relleno.
+---------------------------------------------------------
+*/
+.Lista{
+
+    background-color:green;
+    color:white;
+    padding:15px;
+    margin:15px;
+
+}
+
+
+/*
+---------------------------------------------------------
+Selector de clase utilizado por la etiqueta span.
+
+Su función es resaltar ciertas palabras del texto
+cambiando únicamente su color y agregando un fondo.
+---------------------------------------------------------
+*/
+.Resaltado{
+
+    color:red;
+    background-color:white;
+    font-weight:bold;
+
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos para el contenedor de la tabla.
+
+Se establece un ancho del 90%, un color de fondo,
+márgenes automáticos para centrar el elemento
+y un espacio interno.
+---------------------------------------------------------
+*/
+.Tabla{
+
+    width:90%;
+    background-color:aquamarine;
+    margin:20px auto;
+    padding:20px;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos generales para la tabla.
+
+Se hace que ocupe todo el ancho disponible y
+se eliminan los espacios entre los bordes.
+---------------------------------------------------------
+*/
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    background-color:white;
+
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos para las celdas del encabezado.
+
+Se cambia el color del fondo y del texto para
+diferenciar el encabezado del resto de la tabla.
+---------------------------------------------------------
+*/
+th{
+
+    background-color:yellow;
+    color:black;
+    border:2px solid black;
+    padding:10px;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos para todas las celdas de la tabla.
+
+Se agrega un borde, espacio interno y se alinea
+el contenido hacia la izquierda.
+---------------------------------------------------------
+*/
+td{
+
+    border:2px solid black;
+    padding:10px;
+    text-align:left;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Contenedor donde se encuentra la imagen.
+
+Se utiliza un fondo diferente y se centra
+todo el contenido.
+---------------------------------------------------------
+*/
+.Imagen{
+
+    width:90%;
+    background-color:aquamarine;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos para la imagen.
+
+Se define un tamaño utilizando las propiedades
+width y height, conceptos vistos durante la lección.
+
+También se limita el tamaño máximo para que la
+imagen se adapte al ancho del contenedor.
+---------------------------------------------------------
+*/
+.Imagen img{
+
+    width:400px;
+    height:250px;
+    max-width:100%;
+
+
+}
+
+
+/*
+---------------------------------------------------------
+Estilos para los títulos secundarios (h2).
+
+Se cambia el color del texto y se centran para
+mantener una apariencia uniforme en toda la página.
+---------------------------------------------------------
+*/
+h2{
+
+    color:black;
+    text-align:center;
+
+    
+
+}

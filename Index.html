@@ -1,0 +1,253 @@
+<!--
+    Se declara el tipo de documento HTML5.
+    Esto permite que el navegador interprete correctamente
+    todas las etiquetas y características de HTML.
+-->
+<!DOCTYPE html>
+
+<!--
+    La etiqueta html contiene todo el contenido de la página.
+    El atributo lang indica que el idioma principal es español.
+-->
+<html lang="es">
+
+<head>
+
+    <!--
+        Se define la codificación UTF-8 para que el navegador
+        pueda mostrar correctamente letras acentuadas,
+        la letra ñ y caracteres especiales.
+    -->
+    <meta charset="utf-8">
+
+    <!--
+        Se pone el título que aparecerá en la pestaña del navegador.
+    -->
+    <title>Reto 2. Crear una página web</title>
+
+    <!--
+        Se enlaza el archivo CSS donde se encuentran
+        todos los estilos de la página como colores,
+        márgenes, fondos, tamaños y rellenos.
+    -->
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<!--
+    La etiqueta body contiene todo el contenido visible
+    para el usuario dentro de la página web.
+-->
+<body>
+
+    <!--
+        Se crea una sección principal utilizando la etiqueta section.
+
+        Se utiliza un selector de ID llamado "Seccion"
+        para aplicar estilos específicos desde el archivo CSS.
+    -->
+    <section id="Seccion">
+
+        <!--
+            Se crea un contenedor principal mediante un div.
+
+            Este contenedor agrupa el título, el párrafo
+            y la lista para mantener organizada la información.
+        -->
+        <div class="Contenedor">
+
+            <!--
+                Se agrega el título principal solicitado
+                por la actividad utilizando la etiqueta h1.
+            -->
+            <h1>Mi trabajo de sueños</h1>
+
+            <!--
+                Se crea un nuevo contenedor para almacenar
+                la descripción del trabajo de mis sueños.
+            -->
+            <div class="Parrafo">
+
+                <!--
+                    Se utiliza un encabezado de nivel dos
+                    para identificar esta sección.
+                -->
+                <h2>Descripción de mi trabajo ideal</h2>
+
+                <!--
+                    Se utiliza la etiqueta p para escribir
+                    un párrafo que describe brevemente
+                    el trabajo de mis sueños.
+                -->
+                <p>
+                    El trabajo de mis sueños es ser programador remoto,
+                    principalmente desarrollando o dando mantenimiento
+                    a sistemas ERP, ya que me gusta resolver problemas
+                    mediante software y ayudar a las empresas a mejorar
+                    sus procesos.
+                </p>
+
+            </div>
+
+            <!--
+                Se crea un nuevo contenedor para mostrar
+                una lista con las razones por las que me gustaría
+                desempeñar este trabajo.
+            -->
+            <div class="Lista">
+
+                <!--
+                    Se agrega un encabezado para identificar
+                    la lista de razones.
+                -->
+                <h2>¿Por qué me gustaría tener este trabajo?</h2>
+
+                <!--
+                    La etiqueta ul crea una lista no ordenada.
+                    Cada elemento de la lista utiliza la etiqueta li.
+                -->
+                <ul>
+
+                    <li>
+                        Aprovecharía el tiempo que normalmente perdería
+                        en el transporte para
+                        <span class="Resaltado">
+                            realizar otras actividades.
+                        </span>
+                    </li>
+
+                    <li>
+                        Podría pasar
+                        <span class="Resaltado">
+                            más tiempo con mi familia.
+                        </span>
+                    </li>
+
+                    <li>
+                        Tendría
+                        <span class="Resaltado">
+                            mayor tiempo libre para seguir aprendiendo.
+                        </span>
+                    </li>
+
+                    <li>
+                        Considero que tendría una
+                        <span class="Resaltado">
+                            mejor calidad de vida.
+                        </span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--
+        Se crea un contenedor para mostrar una tabla.
+
+        La tabla contiene algunos pasos o requisitos
+        necesarios para conseguir el trabajo de mis sueños.
+    -->
+    <div class="Tabla">
+
+        <h2>Pasos para obtener mi trabajo de sueños</h2>
+
+        <table>
+
+            <!--
+                Encabezado de la tabla.
+            -->
+            <thead>
+
+                <tr>
+
+                    <th>Paso</th>
+                    <th>Requisito</th>
+                    <th>Acción para lograrlo</th>
+
+                </tr>
+
+            </thead>
+
+            <!--
+                Cuerpo principal de la tabla.
+            -->
+            <tbody>
+
+                <tr>
+
+                    <td>1</td>
+                    <td>Aprender HTML y CSS</td>
+                    <td>Practicar el desarrollo de páginas web.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2</td>
+                    <td>Aprender JavaScript</td>
+                    <td>Desarrollar páginas web interactivas.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>3</td>
+                    <td>Conocer bases de datos</td>
+                    <td>Estudiar SQL y administrar información.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>4</td>
+                    <td>Aprender sistemas ERP</td>
+                    <td>Conocer módulos como ventas, compras e inventarios.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>5</td>
+                    <td>Crear proyectos propios</td>
+                    <td>Desarrollar aplicaciones para fortalecer mi portafolio.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>6</td>
+                    <td>Buscar empleo remoto</td>
+                    <td>Postularme a empresas que trabajen bajo esta modalidad.</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!--
+        Se crea una sección para mostrar una imagen
+        relacionada con el trabajo de un programador.
+
+        El atributo src indica el archivo de la imagen
+        y el atributo alt proporciona una descripción
+        alternativa en caso de que la imagen no pueda mostrarse.
+    -->
+    <div class="Imagen">
+
+        <h2>Logotipo de HTML</h2>
+
+        <img src="imagen.png"
+             alt="Programador trabajando desde casa">
+
+    </div>
+
+</body>
+
+</html>
